@@ -158,15 +158,15 @@ footer .copy-right {
 
 /* font styles */
 .font-sm {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .font-md {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .font-lg {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .font-loud {
@@ -282,6 +282,20 @@ footer .copy-right {
 .jumbotron-facebook h2,
 .jumbotron-dark h2 {
     font-size: 32px !important;
+}
+
+.jumbotron-section h2 span {
+    color: #fff;
+    font-size: 28px;
+    padding: 15px 20px;
+    margin: 30px 0;
+    border-radius: 3px;
+    background: #0e5ea8;
+}
+
+.jumbotron-section hr {
+    margin-top: 30px;
+    border-top: 2px solid #525252;
 }
 
 .jumbotron-main {
@@ -610,13 +624,28 @@ ul.outline {
     padding: 15px 20px;
 }
 
-section.free-code {
-    margin-bottom: 50px;
+.card-plan .card-header-icon i {
+    color: #fff;
+    opacity: 0.9;
 }
 
-pre.code-piece {
-    font-size: 16px;
-    background-color: #e7e0d5;
+.card-plan .list-group .list-group-item {
+    background-color: #fff;
+    opacity: 0.8;
+    border-color: transparent;
+    border-width: 5px;
+}
+
+.bg-webplan1 {
+    background-color: #e06919;
+}
+
+.bg-erpplan1 {
+    background-color: #398f9b;
+}
+
+.bg-allplan2 {
+    background-color: #33342d;
 }
 
 @media (max-width:767px) {
