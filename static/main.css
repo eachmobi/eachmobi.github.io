@@ -31,7 +31,7 @@ footer {
     position: absolute;
     margin-bottom: 0;
     width: 100%;
-    background-color: #311201;
+    background-color: #2e2e2e;
 }
 
 footer a:link,
@@ -48,7 +48,7 @@ footer a:active {
 }
 
 footer h4 {
-    color: #eda01d;
+    color: #c0c0c0;
     margin: 10px 0;
 }
 
@@ -82,7 +82,7 @@ footer .copy-right {
 .navbar-main {
     height: 60px;
     background-color: #fff !important;
-    border-bottom: solid 1px #632600;
+    border-bottom: solid 1px #2e74b5;
 }
 
 .navbar-main .navbar-collapse { 
@@ -94,16 +94,16 @@ footer .copy-right {
 
 .navbar-main .navbar-toggler {
     padding: 3px 8px 2px 8px;
-    background-color: #632600;
+    background-color: #2e74b5;
 }
 
 .navbar-main .navbar-brand {
     /*main color*/
-    color: #cf6d09 !important;
+    color: #2e74b5 !important;
 }
 
 .navbar-main .navbar-toggler {
-    border: solid 1px #632600 !important;
+    border: solid 1px #2e74b5 !important;
     border-radius: 0px;
 }
 
@@ -118,7 +118,7 @@ footer .copy-right {
 }
 
 .navbar-main .nav-item .nav-link:hover {
-    background-color: #e99511;
+    background-color: #2e74b5;
     color: #fff !important;
     border-radius: 3px;
 }
@@ -158,11 +158,11 @@ footer .copy-right {
 
 /* font styles */
 .font-sm {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .font-md {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .font-lg {
@@ -174,11 +174,26 @@ footer .copy-right {
 }
 
 .texti-main {
-    color: #632600;
+    color: #2e74b5;
 }
 
 .texti-error {
     color: #cc4444;
+}
+
+.texti-vital {
+    color: #eb4381;
+}
+
+.texti-price {
+    color: #555;
+}
+
+.texti-price,
+.texti-price span {
+    font-family: Quicksand, "Microsoft JhengHei";
+    font-weight: 400;
+    padding: 10px 0;
 }
 
 .form-control {
@@ -273,6 +288,20 @@ footer .copy-right {
     font-size: 32px !important;
 }
 
+.jumbotron-section h2 span {
+    color: #fff;
+    font-size: 28px;
+    padding: 15px 20px;
+    margin: 30px 0;
+    border-radius: 3px;
+    background: #0e5ea8;
+}
+
+.jumbotron-section hr {
+    margin-top: 30px;
+    border-top: 2px solid #525252;
+}
+
 .jumbotron-main {
     color: #f0cf0e;
     background-color: #311201;
@@ -346,6 +375,10 @@ footer .copy-right {
     border-radius: 0;
 }
 
+.my-section p {
+    line-height: 32px;
+}
+
 .my-section h4 {
     font-size: 22px;
 }
@@ -406,15 +439,6 @@ footer .copy-right {
     padding: 20px 0;
 }
 
-.my-section .ans-body {
-    color: #222;
-    font-size: 18px;
-}
-
-.my-section .ans-body span {
-    color: #007acc;
-}
-
 .my-section .card-header .btn {
     color: #ffdfd0;
     font-size: 20px;
@@ -426,6 +450,10 @@ footer .copy-right {
     font-size: 24px;
     transition: all 600ms;
     text-decoration: none;
+}
+
+.my-section .list-group-item {
+    font-size: 18px;
 }
 
 ul.outline {
@@ -454,8 +482,8 @@ ul.outline {
 }
 
 .form-control {
-	height: 42px;
-	line-height: 42px;
+    height: 42px;
+    line-height: 42px;
 }
 
 .form-signin {
@@ -468,7 +496,7 @@ ul.outline {
 }
 
 .form-signin .form-control {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 .form-signin .form-control:focus {
@@ -600,13 +628,28 @@ ul.outline {
     padding: 15px 20px;
 }
 
-section.free-code {
-    margin-bottom: 50px;
+.card-plan .card-header-icon i {
+    color: #fff;
+    opacity: 0.9;
 }
 
-pre.code-piece {
-    font-size: 16px;
-    background-color: #e7e0d5;
+.card-plan .list-group .list-group-item {
+    background-color: #fff;
+    opacity: 0.8;
+    border-color: transparent;
+    border-width: 5px;
+}
+
+.bg-webplan1 {
+    background-color: #e06919;
+}
+
+.bg-erpplan1 {
+    background-color: #398f9b;
+}
+
+.bg-allplan2 {
+    background-color: #33342d;
 }
 
 @media (max-width:767px) {
@@ -624,17 +667,13 @@ pre.code-piece {
         margin: 6px 40px 0px 40px;
     }
 
-    .navbar-main .nav-item:first-child {
-        margin-top: 18px;
-    }
-
     .navbar-main .nav-item .nav-link.btn {
         margin-top: 20px;
     }
 
     .navbar-main li.nav-item:last-child .nav-link.btn,
     .navbar-main li.nav-item:last-child .nav-link {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     #my-carousel {
