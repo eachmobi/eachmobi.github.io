@@ -28,5 +28,9 @@ $(function() {
     $(".carousel .carousel-inner").on("dragstart", "a", function() {
         return false;
     });  
+
+    $('.navbar-nav>li>a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
 });
 

@@ -657,23 +657,34 @@ ul.outline {
         margin: 0px -30px;
         width: 100%;
         /*background-color: #632600;*/
-        background-color: #363636;
+        background-color: #fff;
     }
-    .navbar-main .nav-item .nav-link,
-    .navbar-main .nav-item .nav-link:hover {
+    .navbar-main .nav-item .nav-link {
         text-align: center;
         font-size: 18px;
-        color: #fff !important;
+        color: #2e74b5 !important;
         margin: 6px 40px 0px 40px;
     }
 
+	.navbar-main .nav-item .nav-link:hover {
+		color: #fff;
+	}
     .navbar-main .nav-item .nav-link.btn {
         margin-top: 20px;
     }
 
+    .navbar-main li.nav-item:first-child .nav-link.btn,
+    .navbar-main li.nav-item:first-child .nav-link {
+    	margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #2e74b5;
+    }
+
     .navbar-main li.nav-item:last-child .nav-link.btn,
     .navbar-main li.nav-item:last-child .nav-link {
-        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #2e74b5;
+        margin-bottom: 20px;
     }
 
     #my-carousel {
