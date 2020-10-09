@@ -1,5 +1,5 @@
-// preloader 
-$(window).load(function() {
+// preloader
+$(window).on('load', function () {
       $("#status").fadeOut();
       $("#preloader").delay(100).fadeOut("fast");
       $("body").delay(100).css({overflow: "visible"});
@@ -10,7 +10,7 @@ $(function() {
         interval: 10000,
         pause: true
     });
-  
+
   $(".carousel .carousel-inner").swipe( {
         swipeLeft: function(event, direction, distance, duration, fingerCount) {
             this.parent().carousel("next");
@@ -24,10 +24,10 @@ $(function() {
         },
         excludedElements:"label, button, input, select, textarea, .noSwipe"
     });
-  
+
     $(".carousel .carousel-inner").on("dragstart", "a", function() {
         return false;
-    });  
+    });
 
     $('.navbar-nav>li>a').on('click', function() {
         $('.navbar-collapse').collapse('hide');
