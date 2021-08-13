@@ -2,7 +2,9 @@ body, input, button, select, textarea {
     font-family: "Helvetica Neue", Helvetica,Arial, "Microsoft JhengHei", "Microsoft YaHei", Meiryo, "Meiryo UI", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 { font-weight:normal; }
+h1,h2,h3,h4,h5,h6 {
+    font-weight:normal;
+}
 
 html {
     position: relative;
@@ -302,6 +304,10 @@ footer .copy-right {
     border-top: 2px solid #525252;
 }
 
+.jumbotron-section h2.contact span {
+    background: #28a745;
+}
+
 .jumbotron-main {
     color: #f0cf0e;
     background-color: #311201;
@@ -476,14 +482,12 @@ ul.outline {
 }
 
 .card,
-.card-heading,
-.form-control {
+.card-heading{
     border-radius: 0px;
 }
 
 .form-control {
-    height: 42px;
-    line-height: 42px;
+    color: #0069d9;
 }
 
 .form-signin {
