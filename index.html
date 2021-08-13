@@ -384,7 +384,7 @@
             </div>
             <div class="col-lg-6">
               <form action="https://docs.google.com/forms/d/e/1FAIpQLSfz-AHTCnNUa2g-qqRQP445H4XkwbWbfYyzUEuMTQWywd7OhA/formResponse"
-                    method="POST" onsubmit="submitForm();" target="the-iframe">
+                    method="POST" onsubmit="submitForm();" onreset="resetForm();" target="the-iframe">
                     <input type="text" class="form-control form-control-lg mb-3" name="entry.1746226186" placeholder="公司名稱" value="">
                     <input type="text" class="form-control form-control-lg mb-3" name="entry.1793036887" placeholder="聯絡人" value="">
                     <input type="text" class="form-control form-control-lg mb-3" name="entry.1773362979" placeholder="手機號碼" value="">
@@ -398,9 +398,10 @@
                       <option value="社群平台軟體開發">社群平台軟體開發</option>
                     </select>
                     <iframe id="the-iframe" name="the-iframe" class="d-none"></iframe>
+                    <div id="result" class="text-center">
+                    </div>
                     <button type="submit" class="btn btn-lg btn-block btn-primary">送出表單</button>
-                    <br>
-                    <div id="result" class="text-danger text-center"> </div>
+                    <button type="reset" class="btn btn-lg btn-block btn-secondary">清空</button>
               </form>
             </div>
         </div>
@@ -424,7 +425,10 @@
   <script src="/static/main.js?210812"></script>
   <script>
     function submitForm() {
-      $('#result').html('<p class="lead font-weight-bold">表單已經送出</p>');
+      $('#result').html('<div class="alert alert-success" role="alert"><span class="lead font-weight-bold">表單已經送出</span></div>');
+    }
+    function resetForm() {
+      $('#result').html('');
     }
   </script>
 
