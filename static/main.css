@@ -460,6 +460,7 @@ footer .copy-right {
 
 .my-section .list-group-item {
     font-size: 18px;
+    padding: 8px;
 }
 
 ul.outline {
@@ -645,15 +646,43 @@ ul.outline {
 }
 
 .bg-webplan1 {
-    background-color: #e06919;
+    background-color: #71a103;
+}
+
+.bg-webplan2 {
+    background-color: #435f02;
 }
 
 .bg-erpplan1 {
-    background-color: #398f9b;
+    background-color: #318793;
 }
 
 .bg-allplan2 {
     background-color: #33342d;
+}
+
+.bg-itsplan-office {
+    background-color: #f16423;
+}
+
+.bg-itsplan-bs {
+    background-color: #6f45ad;
+}
+
+.bg-itsplan-py {
+    background-color: #27547a;
+}
+
+.bg-locplan-writer {
+    background-color: #10a1ee;
+}
+
+.bg-locplan-calc {
+    background-color: #39b539;
+}
+
+.bg-locplan-impress {
+    background-color: #f27937;
 }
 
 @media (max-width:767px) {
