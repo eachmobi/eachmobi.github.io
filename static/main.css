@@ -280,9 +280,7 @@ footer .copy-right {
 }
 
 /* custom jumbotron */
-.jumbotron-main,
 .jumbotron-section,
-.jumbotron-lineat,
 .jumbotron-facebook,
 .jumbotron-dark {
     color: #fff;
@@ -292,9 +290,7 @@ footer .copy-right {
     font-weight: bold;
 }
 
-.jumbotron-main h2,
 .jumbotron-section h2,
-.jumbotron-lineat h2,
 .jumbotron-facebook h2,
 .jumbotron-dark h2 {
     font-size: 32px !important;
@@ -303,8 +299,7 @@ footer .copy-right {
 .jumbotron-section h2 span {
     color: #fff;
     font-size: 28px;
-    padding: 15px 20px;
-    margin: 30px 0;
+    padding: 20px 100px;
     border-radius: 3px;
     background: #0e5ea8;
 }
@@ -325,10 +320,6 @@ footer .copy-right {
 
 .jumbotron-lineat {
     background-color: #01a201;
-}
-
-.jumbotron-facebook {
-    background-color: #4a67a5;
 }
 
 .jumbotron-dark {
@@ -486,27 +477,6 @@ footer .copy-right {
     color: #0069d9;
 }
 
-.form-signin {
-    padding: 5px;
-    margin: 0 auto;
-}
-
-.form-signin h3 {
-    font-size: 18px;
-}
-
-.form-signin .form-control {
-    font-size: 16px;
-}
-
-.form-signin .form-control:focus {
-    z-index: 2;
-}
-
-.signin-role {
-    margin-bottom: 30px;
-}
-
 .card-signin {
     border-color: #5cb85c;
     margin-top: 100px;
@@ -534,40 +504,6 @@ footer .copy-right {
 
 .text-error {
     color: #cc4444;
-}
-
-.btn-signin,
-.btn-signin:focus,
-.btn-signin:active,
-.btn-signin.active  {
-    color: #fff;
-    background-color: #565656;
-    border-color: #565656;
-    margin: 20px 0;
-}
-
-.btn-signin:hover {
-    color: #fff;
-    background-color: #484848;
-    border-color: #484848;
-}
-
-.btn-byfacebook {
-    color: #fff;
-}
-
-.btn-byfacebook,
-.btn-byfacebook:focus,
-.btn-byfacebook:active {
-    color: #fff;
-    background-color: #4a67a5;
-    border-color: #4a67a5;
-}
-
-.btn-byfacebook:hover {
-    color: #fff;
-    background-color: #3a5795;
-    border-color: #3a5795;
 }
 
 .card-plan {
@@ -631,12 +567,11 @@ footer .copy-right {
     .navbar-main .navbar-collapse {
         margin: 0px -30px;
         width: 100%;
-        /*background-color: #632600;*/
         background-color: #fff;
     }
     .navbar-main .nav-item .nav-link {
         text-align: center;
-        font-size: 18px;
+        font-size: 24px;
         color: #2e74b5 !important;
         margin: 6px 40px 0px 40px;
     }
