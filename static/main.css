@@ -428,8 +428,13 @@ footer .copy-right {
     background-color: #b25c32;
 }
 
+.my-section .card-header-icon-black,
 .my-section .card-header-icon {
     padding: 20px 0;
+}
+
+.my-section .card-header-icon-black {
+    color: black;
 }
 
 .my-section .card-header .btn {
@@ -528,6 +533,10 @@ footer .copy-right {
 }
 
 .bg-webplan2 {
+    background-color: #a10379;
+}
+
+.bg-webplan3 {
     background-color: #33342d;
 }
 
@@ -540,15 +549,15 @@ footer .copy-right {
 }
 
 .bg-itsplan1 {
-    background-color: #f16423;
+    background-color: #336895;
 }
 
 .bg-itsplan2 {
-    background-color: #6f45ad;
+    background-color: #ead41c;
 }
 
 .bg-itsplan3 {
-    background-color: #27547a;
+    background-color: #d61d20;
 }
 
 .bg-locplan1 {
