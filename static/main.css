@@ -200,6 +200,21 @@ footer .copy-right {
     padding: 10px 0;
 }
 
+p.texti-plan0 {
+    color: #555;
+    font-size: 24px !important;
+}
+
+.texti-plan0,
+p.texti-plan0 span {
+    color: #282923;
+    font-weight: bold;
+}
+
+.my-section h3.plan0 i {
+    color: #00b900;
+}
+
 .form-control {
     box-shadow: none;
 }
