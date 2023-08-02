@@ -324,6 +324,10 @@ p.texti-plan0 span {
     border-top: 2px solid #525252;
 }
 
+hr.section-start {
+    border-top: 5px solid #0e5ea8;
+}
+
 .jumbotron-section h2.contact span {
     background: #28a745;
 }
