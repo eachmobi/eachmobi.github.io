@@ -588,6 +588,10 @@ p.texti-plan0 span {
 }
 
 @media (max-width:767px) {
+    .navbar-main .navbar-brand {
+        font-size: 24px;
+    }
+
     .navbar-main .navbar-collapse {
         margin: 0px -30px;
         width: 100%;
