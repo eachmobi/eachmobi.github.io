@@ -196,7 +196,7 @@ footer .copy-right {
 .texti-price,
 .texti-price span {
     font-family: Quicksand, "Microsoft JhengHei";
-    font-weight: 400;
+    font-weight: bold;
     padding: 6px 0;
 }
 
@@ -467,7 +467,7 @@ hr.section-start {
 }
 
 .my-section .list-group-item {
-    font-size: 20px;
+    font-size: 24px;
     padding: 8px;
 }
 
@@ -519,8 +519,8 @@ hr.section-start {
     font-size: 32px;
 }
 
-.card-body h2 {
-    font-size: 24px;
+.card-body h3 {
+    font-size: 28px;
 }
 
 .text-error {
@@ -654,6 +654,6 @@ hr.section-start {
     }
 
     .list-group-item {
-        font-size: 22px !important;
+        font-size: 24px !important;
     }
 }
