@@ -1,5 +1,6 @@
 :root {
   --main-color: #2e74b5;
+  --sio2erp-color: #318793;
 }
 
 body, input, button, select, textarea {
@@ -549,7 +550,7 @@ hr.section-start {
 }
 
 .bg-erpplan1 {
-    background-color: #318793;
+    background-color: var(--sio2erp-color);
 }
 
 .bg-allplan2 {
