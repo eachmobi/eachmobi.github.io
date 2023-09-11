@@ -94,8 +94,10 @@
                 <div class="col-lg-4 text-center mb-3 p-3">
                     <h2 class="text-success fw-bold mb-3">聯繫確認</h2>
                     <h3 class="plan0"><i class="fa-brands fa-line fa-4x"></i></h3>
-                    <p class="texti-plan0 mb-3">加入後<br><span class="text-danger">請告知介紹人</span></p>
+                    <p class="texti-plan0 mb-3">加入後<span class="text-danger">請告知介紹人</span></p>
                     <a href="https://lin.ee/GOj0vBO"><img src="/img/LINE-zh-Hant.png" alt="加入好友" height="48" border="0"></a>
+                    <hr>
+                    <div id="qrcode"></div>
                 </div>
         </section>
     </div>
@@ -111,11 +113,23 @@
     <script src="/static/jquery.min.js"></script>
     <script src="/static/bootstrap.bundle.min.js"></script>
     <script src="/static/jquery.touchSwipe.min.js"></script>
+    <script src="/static/qrcode.min.js"></script>
     <script src="/static/main.js?230911"></script>
     <script>
+        var qrcode = new QRCode("qrcode", {
+            text: "https://eachmobi.com/promo/sample/",
+            width: 80,
+            height: 80,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H
+        });
+        $("#qrcode > img").css({"margin":"auto"});
+
         function submitForm() {
             $('#result').html('<div class="alert alert-success" role="alert"><span class="font-lg fw-bold">表單已經送出</span></div>');
         }
+
         function resetForm() {
             $('#result').html('');
         }
