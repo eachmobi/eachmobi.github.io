@@ -299,7 +299,8 @@ p.texti-plan0 span {
 /* custom jumbotron */
 .jumbotron-section,
 .jumbotron-facebook,
-.jumbotron-dark {
+.jumbotron-dark,
+.jumbotron-promo {
     color: #fff;
     margin-top: 60px;
     padding: 30px 10px 20px 10px;
@@ -363,18 +364,25 @@ hr.section-vice-hr {
     background-color: #282923;
 }
 
+.jumbotron-section {
+    color: #202020;
+    background-color: transparent;
+}
+
+.jumbotron-promo {
+    background-color: var(--main-color);
+}
+
+.bg-promo {
+    background-color: #c0cfdd;
+}
+
 .page-header {
     background-color: #311201;
     background: -webkit-linear-gradient(#311201, #8e5b3e);
     background: -o-linear-gradient(#311201, #8e5b3e);
     background: -moz-linear-gradient(#311201, #8e5b3e);
     background: linear-gradient(#311201, #8e5b3e);
-}
-
-/* jumbotron-section */
-.jumbotron-section  {
-    color: #202020;
-    background-color: transparent;
 }
 
 .main-section {
@@ -611,6 +619,11 @@ hr.section-vice-hr {
 
 .bg-locplan3 {
     background-color: #f27937;
+}
+
+.outline li {
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 @media (max-width:767px) {
