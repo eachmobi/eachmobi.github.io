@@ -1,5 +1,6 @@
 :root {
   --main-color: #2e74b5;
+  --vice-color: #ee0a8f;
   --sio2erp-color: #318793;
 }
 
@@ -320,13 +321,29 @@ p.texti-plan0 span {
     background: var(--main-color);
 }
 
+.jumbotron-section h3 {
+    font-size: 28px !important;
+}
+
+.jumbotron-section h3 span {
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 100px;
+    border-radius: 3px;
+    background: var(--vice-color);
+}
+
 .jumbotron-section hr {
     margin-top: 30px;
     border-top: 2px solid #525252;
 }
 
-hr.section-start {
+hr.section-main-hr {
     border-top: 5px solid var(--main-color);
+}
+
+hr.section-vice-hr {
+    border-top: 5px solid var(--vice-color);
 }
 
 .jumbotron-section h2.contact span {
@@ -537,6 +554,10 @@ hr.section-start {
     border-width: 5px;
 }
 
+.card-plan-sub {
+    border-radius: 16px;
+}
+
 .bg-webplan1 {
     background-color: #71a103;
 }
@@ -559,6 +580,18 @@ hr.section-start {
 
 .bg-itsplan1 {
     background-color: #336895;
+}
+
+.bg-itsplan1-1 {
+    background-color: #a7d34e;
+}
+
+.bg-itsplan1-2 {
+    background-color: #fa785c;
+}
+
+.bg-itsplan1-3 {
+    background-color: #6bdcde;
 }
 
 .bg-itsplan2 {
