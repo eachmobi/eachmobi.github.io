@@ -583,15 +583,18 @@ hr.section-vice-hr {
 }
 
 .bg-itsplan1-sub1 {
-    background-color: #afd65e;
+    background-color: #d5e0bd;
+    border: solid 10px #89bc1e;
 }
 
 .bg-itsplan1-sub2 {
-    background-color: #ff8369;
+    background-color: #dfbeb7;
+    border: solid 10px #e55e42;
 }
 
 .bg-itsplan1-sub3 {
-    background-color: #81dadc;
+    background-color: #cadfdf;
+    border: solid 10px #26babd;
 }
 
 .bg-itsplan2 {
