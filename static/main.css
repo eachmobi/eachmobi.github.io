@@ -298,6 +298,7 @@ p.texti-plan0 span {
 
 /* custom jumbotron */
 .jumbotron-section,
+.jumbotron-lineme,
 .jumbotron-facebook,
 .jumbotron-dark,
 .jumbotron-promo {
@@ -309,6 +310,7 @@ p.texti-plan0 span {
 }
 
 .jumbotron-section h2,
+.jumbotron-lineme h2,
 .jumbotron-facebook h2,
 .jumbotron-dark h2 {
     font-size: 32px !important;
@@ -356,7 +358,7 @@ hr.section-vice-hr {
     background-color: #311201;
 }
 
-.jumbotron-lineat {
+.jumbotron-lineme {
     background-color: #01a201;
 }
 
