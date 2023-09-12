@@ -628,6 +628,28 @@ hr.section-vice-hr {
     font-size: 20px;
 }
 
+.get-promo-step1,
+.get-promo-step2,
+.get-promo-step3 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.get-promo-step1 {
+    background-color: #c60d39;
+}
+
+.get-promo-step2 {
+    background-color: var(--main-color);
+}
+
+.get-promo-step3 {
+    background-color: #01a201;
+}
+
 @media (max-width:767px) {
     .navbar-main .navbar-brand {
         font-size: 24px;
