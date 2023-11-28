@@ -34,6 +34,28 @@ a:active {
     color: #0270e6;
 }
 
+a.line,
+a.facebook {
+    margin: 0 6px;
+    font-size: 34px;
+}
+
+a.line:link,
+a.line:visited,
+a.line:hover,
+a.line:active {
+    text-decoration: none;
+    color: #48a748;
+}
+
+a.facebook:link,
+a.facebook:visited,
+a.facebook:hover,
+a.facebook:active {
+    text-decoration: none;
+    color: #0866ff;
+}
+
 footer {
     color: #fff;
     position: absolute;
