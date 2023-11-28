@@ -710,6 +710,12 @@ hr.section-vice-hr {
         margin-bottom: 20px;
     }
 
+    a.line,
+    a.facebook {
+        margin: 0 6px;
+        font-size: 40px;
+    }
+
     .main-carousel {
         margin-top: 60px;
     }
