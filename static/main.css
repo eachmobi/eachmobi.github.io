@@ -1,6 +1,6 @@
 :root {
   --main-color: #2e74b5;
-  --vice-color: #ee0a8f;
+  --vice-color: #2e2e2e;
   --sio2erp-color: #10555f;
 }
 
@@ -353,7 +353,7 @@ p.texti-plan0 span {
 .jumbotron-section h3 span {
     color: #fff;
     font-size: 24px;
-    padding: 20px 100px;
+    padding: 20px 50px;
     border-radius: 3px;
     background: var(--vice-color);
 }
