@@ -606,45 +606,6 @@ hr.section-vice-hr {
     background-color: #33342d;
 }
 
-.bg-itsplan1 {
-    background-color: #336895;
-}
-
-.bg-itsplan1-sub1 {
-    background-color: #d5e0bd;
-    border: solid 16px #89bc1e;
-}
-
-.bg-itsplan1-sub2 {
-    background-color: #dfbeb7;
-    border: solid 16px #e55e42;
-}
-
-.bg-itsplan1-sub3 {
-    background-color: #cadfdf;
-    border: solid 16px #26babd;
-}
-
-.bg-itsplan2 {
-    background-color: #ead41c;
-}
-
-.bg-itsplan3 {
-    background-color: #d61d20;
-}
-
-.bg-locplan1 {
-    background-color: #10a1ee;
-}
-
-.bg-locplan2 {
-    background-color: #39b539;
-}
-
-.bg-locplan3 {
-    background-color: #f27937;
-}
-
 .outline li {
     padding-top: 10px;
     font-size: 20px;
