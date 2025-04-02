@@ -634,6 +634,10 @@ hr.section-vice-hr {
 }
 
 @media (max-width:767px) {
+    h1 {
+        margin-bottom: -30px;
+    }
+
     .navbar-main .navbar-brand {
         font-size: 24px;
     }
