@@ -56,61 +56,6 @@ a.facebook:active {
     color: #0866ff;
 }
 
-footer {
-    color: #fff;
-    position: absolute;
-    margin-bottom: 0;
-    width: 100%;
-    background-color: #2e2e2e;
-}
-
-footer a:link,
-footer a:visited,
-footer a:hover,
-footer a:active {
-    color: #eee;
-    text-decoration: none;
-}
-
-footer a:hover,
-footer a:active {
-    color: #f0cf0e;
-}
-
-footer h4 {
-    color: #c0c0c0;
-    margin: 10px 0;
-}
-
-footer hr {
-    border: none;
-    height: 1px;
-    width: 50%;
-    margin: auto;
-    color: #eee;
-    background-color: #eee;
-}
-
-footer .container {
-    padding: 20px;
-}
-
-footer .container .links {
-    margin-bottom: 20px;
-}
-
-footer .container p {
-    margin: 6px 0;
-}
-
-footer .copy-right {
-    text-align: center;
-    font-size: 16px;
-    color: #eee;
-    width: 100%;
-    background-color: transparent;
-}
-
 .navbar-main {
     height: 70px;
     background-color: #fff !important;
@@ -631,6 +576,61 @@ hr.section-vice-hr {
 
 .get-promo-step3 {
     background-color: #01a201;
+}
+
+footer {
+    color: #fff;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #2e2e2e;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: #eee;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:active {
+    color: #f0cf0e;
+}
+
+footer h4 {
+    color: #c0c0c0;
+    margin: 10px 0;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    width: 50%;
+    margin: auto;
+    color: #eee;
+    background-color: #eee;
+}
+
+footer .container {
+    padding: 20px;
+}
+
+footer .container .links {
+    margin-bottom: 20px;
+}
+
+footer .container p {
+    margin: 6px 0;
+}
+
+footer .copy-right {
+    text-align: center;
+    font-size: 16px;
+    color: #eee;
+    width: 100%;
+    background-color: transparent;
 }
 
 @media (max-width:767px) {
