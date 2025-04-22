@@ -57,7 +57,7 @@ a.facebook:active {
 }
 
 .navbar-main {
-    height: 70px;
+    height: 65px;
     background-color: #fff !important;
     border-bottom: solid 1px var(--main-color);
 }
@@ -210,7 +210,7 @@ p.texti-plan0 span {
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url('/img/preloader.gif');
+    background-image: url('/static/img/preloader.gif');
     background-size: 32px 32px;
     background-repeat: no-repeat;
     background-position: center;
