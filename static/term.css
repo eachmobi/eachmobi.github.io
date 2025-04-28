@@ -1,0 +1,169 @@
+:root {
+  --main-color: #2e74b5;
+  --vice-color: #2e2e2e;
+  --sio2erp-color: #10555f;
+}
+
+body, input, button, select, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", "Microsoft YaHei", "Meiryo UI", "Meiryo", sans-serif;
+}
+
+body {
+    /* min-height: 2000px; */
+    background-color: #fafafa;
+    padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    height: 100px;
+}
+
+.navbar-main {
+    height: 65px;
+    background-color: #fff !important;
+    border-bottom: solid 1px var(--main-color);
+}
+
+.navbar-main .navbar-collapse {
+    /* https://css-tricks.com/viewport-sized-typography/ */
+    max-height: 100vh !important;
+    overflow-x: hidden !important;
+    background-color: transparent;
+}
+
+.navbar-main .navbar-toggler {
+    padding: 3px 8px 2px 8px;
+    background-color: var(--main-color);
+}
+
+.navbar-main .navbar-brand {
+    color: var(--main-color) !important;
+}
+
+.navbar-main .navbar-toggler {
+    border: solid 1px var(--main-color) !important;
+    border-radius: 0px;
+}
+
+.navbar-main .navbar-toggler-icon {
+    width: 22px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250, 250, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-main .nav-item .nav-link {
+    color: #262626 !important;
+    margin: 0 6px;
+}
+
+.navbar-main .nav-item .nav-link:hover {
+    color: #28a745 !important;
+}
+
+.navbar-main .nav-item .nav-link.btn {
+    color: #fff !important;
+}
+
+.navbar-main .nav-item .nav-link.nav-home {
+    color: #ffdb87 !important;
+}
+
+.navbar-main .nav-item .nav-link.nav-home:hover {
+    color: #ffce44 !important;
+}
+
+.navbar-main .nav-item.blank-item {
+    color: transparent;
+}
+
+.navbar-brand span {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.img-logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 5px 0 10px;
+    border-radius: 3px;
+}
+
+.terms-section {
+    padding: 30px;
+}
+
+.terms-section h2 {
+    color: #cc4444;
+    font-size: 24px;
+    margin: 50px 0 20px 0;
+}
+
+.terms-section p {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.terms-section ol {
+    margin-left: 30px;
+}
+
+.terms-section ol li {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.terms-section ol li ul li{
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .navbar-main .navbar-brand {
+        font-size: 24px;
+    }
+
+    .navbar-main .navbar-collapse {
+        margin: 0px -30px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .navbar-main .nav-item .nav-link {
+        text-align: center;
+        font-size: 24px;
+        color: var(--main-color) !important;
+        margin: 6px 40px 0px 40px;
+    }
+
+    .navbar-main .nav-item .nav-link:hover {
+        color: #fff;
+    }
+
+    .navbar-main .nav-item .nav-link.btn {
+        margin-top: 20px;
+    }
+
+    .navbar-main li.nav-item:first-child .nav-link {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid var(--main-color);
+    }
+
+    .navbar-main li.nav-item:last-child .nav-link {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #282923;
+    }
+}
