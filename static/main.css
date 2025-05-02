@@ -1,7 +1,6 @@
 :root {
   --main-color: #2e74b5;
   --vice-color: #2e2e2e;
-  --sio2erp-color: #10555f;
 }
 
 body, input, button, select, textarea {
@@ -544,7 +543,7 @@ hr.section-vice-hr {
 }
 
 .bg-erpplan1 {
-    background-color: var(--sio2erp-color);
+    background-color: var(--main-color);
 }
 
 .bg-allplan2 {
